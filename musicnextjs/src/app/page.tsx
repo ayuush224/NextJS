@@ -1,4 +1,5 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
+import Footer from "@/components/Footer";
 import GridSmallBackgroundDemo from "@/components/GridSmallBackgroundDemo";
 import HeroSection from "@/components/HeroSection";
 import Instructors from "@/components/Instructors";
@@ -18,6 +19,7 @@ export default function Home() {
       </GridSmallBackgroundDemo>
       <UpcomingWebinars/>
       <Instructors/>
+      <Footer/>
     </main>
   );
 }
