@@ -1,5 +1,6 @@
 "use client";
 
+import Footer from "@/components/Footer";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import courseData from '@/data/music_course.json';
 import Image from "next/image";
@@ -55,7 +56,8 @@ export default function Courses(){
                         </CardBody>
                 </CardContainer>
                 ))}
-            </div>  
+            </div>
+            <Footer />
         </div>
     )
 }
