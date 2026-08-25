@@ -3,17 +3,7 @@ import { StickyScroll } from "./ui/sticky-scroll-reveal";
 
 const musicSchoolContent = [
     {
-      title: 'Discover Your Sound with Us: A Personal Journey in Music Mastery',
-      description:
-        'Embark on a musical journey that’s uniquely yours. Our personalized instruction adapts to your individual needs, setting the stage for unparalleled growth and creativity. At our music school, your aspirations meet our dedicated support, creating a harmonious path to mastery.',
-    },
-    {
-      title: 'Discover Your Sound with Us: A Personal Journey in Music Mastery',
-      description:
-        'Embark on a musical journey that’s uniquely yours. Our personalized instruction adapts to your individual needs, setting the stage for unparalleled growth and creativity. At our music school, your aspirations meet our dedicated support, creating a harmonious path to mastery.',
-    },
-    {
-      title: 'Discover Your Sound with Us: A Personal Journey in Music Mastery',
+      title: 'A Personal Journey in Music Mastery',
       description:
         'Embark on a musical journey that’s uniquely yours. Our personalized instruction adapts to your individual needs, setting the stage for unparalleled growth and creativity. At our music school, your aspirations meet our dedicated support, creating a harmonious path to mastery.',
     },
@@ -37,6 +27,11 @@ const musicSchoolContent = [
 export default function WhyChooseUs(){
     return (
         <div>
+            <div>
+                <h1 className="text-3xl text-center p-2 text-yellow-500">
+                    Discover Your sound with us
+                </h1>
+            </div>
             <StickyScroll content={musicSchoolContent} />
         </div>
     )
