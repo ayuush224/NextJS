@@ -28,7 +28,7 @@ export default function WhyChooseUs(){
     return (
         <div>
             <div>
-                <h1 className="text-3xl text-center p-2 text-yellow-500">
+                <h1 className="text-3xl text-center p-2 text-white bg-blue-950">
                     Discover Your sound with us
                 </h1>
             </div>
